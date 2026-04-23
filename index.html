@@ -41,6 +41,18 @@
       animation: fadeIn 700ms ease;
     }
 
+    .top-placeholder {
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      padding: 0 8px;
+      margin-bottom: 10px;
+      color: rgba(18, 44, 36, 0.14);
+      font-size: 0.92rem;
+      letter-spacing: 0.04em;
+      user-select: none;
+    }
+
     .hero {
       background: linear-gradient(140deg, #125445 0%, #1c7a64 65%, #2b9c80 100%);
       border-radius: var(--radius);
@@ -196,6 +208,8 @@
 </head>
 <body>
   <main class="page">
+    <div class="top-placeholder">预留占位文本（低可见）</div>
+
     <header class="hero">
       <span class="tag">LOCAL REPORT · NEW ZEALAND</span>
       <h1>More Than 200 Volunteers Join Wellington Waterfront Weekend Clean-up</h1>
